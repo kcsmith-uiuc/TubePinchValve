@@ -26,6 +26,9 @@ INTENDED APPLICATIONS:
 
 PROCUREMENT:
 Servo motor: https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1
+
 PCB: Use your favorite custom PCB ordering website, we used: JLCPCB.com
+
 Tubing: (((ADD PART PROCUREMENT INFO)))
+
 CAD file: ServoMount.stl on this GitHub page
