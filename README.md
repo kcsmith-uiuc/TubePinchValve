@@ -38,5 +38,5 @@ CAD file: ServoMount.stl on this GitHub page
 INSTRUCTIONS ON HOW TO BUILD:
 1. Decide what modifcations your application needs
 2. Order all parts in the DESIGN section
-3. For the custom PCB, take your modified PCB files and export them as manufacturing files (include the .drl files). Save these as a .zip file, and drap and drop them into your favorite PCB manufacturing website. If modifications are not necessary, take the .zip file in this GitHub repository named: FILES FOR VALVE SWITCHING PCB.zip, and drop it into your favorite PCB manufacturing website.
+3. For the custom PCB, take your modified PCB files and export them as manufacturing files (include the .drl files). Save these as a .zip file, and drap and drop them into your favorite PCB manufacturing website. If modifications are not necessary, take the .zip file in this GitHub repository named: Recirculation_Aparatus_PCB_V4-B_Cu.zip, and drop it into your favorite PCB manufacturing website.
 4. Once the components arrive, solder the barrel jack and relay onto the PCB, hook up the servo to the arduino, and run the arduino script from this page edited for your application.
