@@ -31,8 +31,15 @@ Figure 1 below shows the various electrical and mechanical components that compr
     - 1 Relay
     - 1 Barrel Jack
 
-![GitHub_Fig1](https://github.com/user-attachments/assets/09958939-adb7-48be-b3a8-bca2244a2399)
+![GitHub_Fig1](https://github.com/user-attachments/assets/41ce9848-d075-4265-8fc3-c9e13d74db03)
 
+Figure 2 below shows the experimental stand that is used to integrate TubePinchValves with an electrochemical flow cell.  The Stand.f3d file in this reposity is a Fusion 360 CAD model of the stand.  The StandParts.ai file in this repository is an Adobe Illustrator file that can be used to laser cut the various pieces that comprise the stand:
+- 1: Main Base Platform
+- 2 and 3: Support Column
+- 4: Servo Mount Clamp
+- 5: Platform for Flow Cell
+
+![GitHub_Fig2](https://github.com/user-attachments/assets/67847eaa-c5b6-4ace-ad19-98462cfc1582)
 
 **BILL OF MATERIALS:**
 - Servo motor with lever (Example: [DS3225 25KG Large Torque Digital Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
@@ -40,7 +47,10 @@ Figure 1 below shows the various electrical and mechanical components that compr
   - 1 Relay (Example: [2449-J1021AS35VDC.20-ND RELAY GEN PURPOSE SPST 3A 5V](https://www.digikey.com/en/products/detail/cit-relay-and-switch/J1021AS35VDC-20/14002155))
   - 1 Barrel Jack (Example: [2.1 mm DC barrel jack](https://www.adafruit.com/product/373?gQT=1))
 - Tubing (Example: [Masterflex® L/S® Precision Pump Tubing, Versilon™ A-60-G, L/S 13](https://www.avantorsciences.com/us/en/product/NA5143380/masterflex-l-s-precision-pump-tubing-versilontm-a-60-n-avantor))
-- CAD file: ServoMount.stl on this GitHub page
+- 3D printing feedstock of your choice for servo mounts
+- Acrylic or plywood sheeting for experimental stand
+- ServoMount.f3d and ServoMount.stl CAD files for 3D-printable servo mounts
+- Stand.f3d CAD file and StandParts.ai Adobe Illustrator file for experimental stand
 
 **BUILD INSTRUCTIONS:**
 1. Order all parts in the DESIGN section.
