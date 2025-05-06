@@ -1,9 +1,5 @@
 # TubePinchValve
-Documentation of the Smith Lab @ UIUC's low-volume, valve-switching device.  This device uses an Arduino microcontroller to actuate a servo that is used to pinch one tube while another tube is left unpinched, thus acting as a three-way valve.  At least four such "valves" can be controlled at a given time based on signals that are received by the Arduino.  
-
-https://github.com/user-attachments/assets/c205eec4-3e87-4c38-aa02-a41302697a1f
-
-A custom printed circuit board (PCB) that interface between the Arduino and the associated servos is included with this repository, along with CAD drawings for 3D printable fixtures that mount two tubes and a servo motor in place for the purpose of fluid switching.  In total, the entire device can be made for approximately 100 USD, as of May 6, 2025.  This device has found particular use in the Smith Lab for directing water flow through a battery-based electrochemical desalination process, as described and used in the following references:
+Documentation of the Smith Lab @ UIUC's low-volume, valve-switching device.  This device uses an Arduino microcontroller to actuate a servo that is used to pinch one tube while another tube is left unpinched, thus acting as a three-way valve.  At least four such "valves" can be controlled at a given time based on signals that are received by the Arduino.  A custom printed circuit board (PCB) that interfaces between the Arduino and the associated servos is included with this repository, along with CAD drawings for 3D printable fixtures that mount two tubes and a servo motor in place for the purpose of fluid switching.  In total, the entire device can be made for approximately 100 USD, as of May 6, 2025.  This device has found particular use in the Smith Lab for directing water flow through a battery-based electrochemical desalination process, as described and used in the following references:
 
 [1] [Reale, E. R., Regenwetter, L., Agrawal, A., Dardón, B., Dicola, N., Sanagala, S., & Smith, K. C. (2021). Low porosity, high areal-capacity Prussian blue analogue electrodes enhance salt removal and thermodynamic efficiency in symmetric Faradaic deionization with automated fluid control. Water Research X, 13, 100116.](https://doi.org/10.1016/j.wroa.2021.100116)
 
@@ -11,9 +7,12 @@ A custom printed circuit board (PCB) that interface between the Arduino and the 
 
 [3] [Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632.](https://doi.org/10.1016/j.electacta.2024.145632)
 
-Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves).  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then switched. 
+Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves), as shown in the video below.  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then switched. 
 
-**CITE THIS device AS:**
+
+https://github.com/user-attachments/assets/45983bcd-0c9a-48d1-a0b0-8a49e22e287c
+
+**CITE THIS DEVICE AS:**
 - Egly, C., Do, V. Q., Rahman, M. H., & Smith, K. C. (2025). TubePinchValve. GitHub. https://github.com/cegly2444/Capillary-Tube-Valve-Switch-PCB
 - Reale, E. R., Regenwetter, L., Agrawal, A., Dardón, B., Dicola, N., Sanagala, S., & Smith, K. C. (2021). Low porosity, high areal-capacity Prussian blue analogue electrodes enhance salt removal and thermodynamic efficiency in symmetric Faradaic deionization with automated fluid control. Water Research X, 13, 100116. https://doi.org/10.1016/j.wroa.2021.100116
 
