@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/45983bcd-0c9a-48d1-a0b0-8a49e22e287c
 The TubePinchValve device seeks to control the flow of small liquid volumes in a simple, precise, and cost-effective manner by using a servo motor to pinch one of two flexible tubes through which water is flowed.  The single valve is comprised of (1) servo motor, (2) two tubes, (3) a 3D-printable mount, and (4) a microcontroller (e.g., an Arduino). By inserting tubes into either side of the mount, and connecting their inputs to separate pumps, the device acts as a three-way valve. When functioning as a valve, the servo rotates between two positions, pinching off either of the two flows of interest. This functionality allows for rapid, precise switching of flows with little-to-no cross-flow.  This GitHub page provides open-source documentation for the reproduction, modification, and procurement of such three-way valves.
 
 **DESIGN:**
-The valve components are as follows:
+Figure 1 below shows the various electrical and mechanical components that comprise the TubePinchValve assembly: 
 - 1 3D printed servo mount
 - 1 DS3225 25KG Large Torque Digital Servo with Lever
 - 2 small diameter tubes of your choice, such as those used with peristaltic pumps
@@ -30,6 +30,9 @@ The valve components are as follows:
 - 1 custom PCB
     - 1 Relay
     - 1 Barrel Jack
+
+![GitHub_Fig1](https://github.com/user-attachments/assets/09958939-adb7-48be-b3a8-bca2244a2399)
+
 
 **BILL OF MATERIALS:**
 - Servo motor with lever (Example: [DS3225 25KG Large Torque Digital Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
@@ -44,9 +47,8 @@ The valve components are as follows:
 2. If modifications are not necessary, take the *.zip file in this GitHub repository named: Recirculation_Aparatus_PCB_V4-B_Cu.zip, and drop it into your favorite PCB manufacturing website.  If modifications to the PCB are necessary, load the relevant PCB files including *.drl files into your preferred PCB CAD software (e.g., KiCad), and export them as manufacturing files. Combine these files into a single *.zip file, and drap and drop them into your favorite PCB manufacturing website. 
 3. Upon receipt of components, solder the barrel jack and relay onto the PCB, and connect each servo to the Arduino.
 4. Connect each servo, lever, and pair of tubes to the mount of interest.
-5. Run the Servo_pinching_calibration/Servo_pinching_calibration.ino Arduino script from this repository to calibrate lever position for optimal tube pinching.
-6. Run the *.ino Arduino script from this repository to initiate periodic switching.
-7. Edit the *.ino Arduino script as necessary to suit your needs.
+5. Calibrate servo positions by running the Servo_pinching_calibration/Servo_pinching_calibration.ino Arduino script to produce optimal tube pinching.  In this script the user can adjust servo angles for two distinct states of each TubePinchValve.  The script makes use of [Arduino's servo.h library](https://docs.arduino.cc/libraries/servo/).
+6. After calibrating the preceding script, the user can then use the same file to initiate periodic switching subject to a trigger signal of interest.
 
 **ACKNOWLEDGMENTS:**
 Support for Vu Q. Do, Md Habibur Rahman, and Kyle C. Smith is acknowledged from the US Office of Naval Research (Award no. N00014-22-1-2577).  Support for Chris Egly via a Research Experience for Undergraduates (REU) is acknowledged from the US National Science Foundation (Award no. 1931659).
