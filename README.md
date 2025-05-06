@@ -38,7 +38,8 @@ Figure 2 below shows the experimental stand that is used to integrate TubePinchV
 - 4: Servo Mount Clamp
 - 5: Platform for Flow Cell
 
-![GitHub_Fig2](https://github.com/user-attachments/assets/4a49cb21-8030-41a8-a37f-ae13b78684ab)
+![GitHub_Fig2](https://github.com/user-attachments/assets/a89a9bf0-2cfb-46ef-8aff-f69dabbcfd8e)
+
 
 **BILL OF MATERIALS:**
 - Servo motor with lever (Example: [DS3225 25KG Large Torque Digital Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
