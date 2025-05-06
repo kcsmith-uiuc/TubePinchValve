@@ -38,3 +38,6 @@ The valve components are as follows:
 1. Order all parts in the DESIGN section.
 2. If modifications are not necessary, take the *.zip file in this GitHub repository named: Recirculation_Aparatus_PCB_V4-B_Cu.zip, and drop it into your favorite PCB manufacturing website.  If modifications to the PCB are necessary, load the relevant PCB files including *.drl files into your preferred PCB CAD software (e.g., KiCad), and export them as manufacturing files. Combine these files into a single *.zip file, and drap and drop them into your favorite PCB manufacturing website. 
 3. Upon receipt of components, solder the barrel jack and relay onto the PCB, connect the servo to the Arduino, and run the *.ino Arduino script from this page or a suitably edited version of that script.
+
+**ACKNOWLEDGMENTS**:
+Support for Vu Q. Do, Md Habibur Rahman, and Kyle C. Smith is acknowledged from the US Office of Naval Research (Award no. N00014-22-1-2577).  Support for Chris Egly via a Research Experience for Undergraduates (REU) is acknowledged from the US National Science Foundation (Award no. 1931659).
