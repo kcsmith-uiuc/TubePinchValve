@@ -9,8 +9,7 @@ Documentation of the [Smith Lab @ UIUC's](https://kcsmith.mechse.illinois.edu/) 
 
 [4] Rozzi, P. G., Lee, J., Do, V. Q., Arthur, T. S., Roberts, C., & Smith, K. C. (2025), Toward Low-Energy Direct-Air CO2 Capture by Reversible Proton-Intercalation Mediated Alkalization, in review.
 
-Using the TubePinchValve device, the Smith Lab @ UIUC was the [first to demonstrate seawater-level desalination using such a battery-based process](https://news.illinois.edu/mechanical-engineers-lend-fresh-insight-into-battery-based-desalination-technology/) [2,3].  In battery-based desalination, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino is used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves), as shown in the video below.  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes are then switched.  By controlling the delay between the switching of inlet valves and outlet valves, apparent "mixing" between desalinated and brine streams is minimized [1-4].
-
+Using the TubePinchValve device, the Smith Lab @ UIUC was the [first to demonstrate seawater-level desalination using such a battery-based process](https://news.illinois.edu/mechanical-engineers-lend-fresh-insight-into-battery-based-desalination-technology/) [2,3].  In battery-based desalination, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino is used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves), as shown in the video below.  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes are then switched.  By controlling the delay between the switching of inlet valves and outlet valves, apparent "mixing" between desalinated and brine streams is minimized [1-4].  At present, this repository provides a beta version for the TubePinchValve device, as the present PCB is still under development.
 
 https://github.com/user-attachments/assets/45983bcd-0c9a-48d1-a0b0-8a49e22e287c
 
@@ -31,7 +30,7 @@ Figure 1 below shows the various electrical and mechanical components that compr
     - 1 Relay
     - 1 Barrel Jack
 
-![GitHub_Fig1](https://github.com/user-attachments/assets/41ce9848-d075-4265-8fc3-c9e13d74db03)
+![GitHub_Fig1](https://github.com/user-attachments/assets/bd523e19-5965-45cd-a40b-2fc3e8c1f1a9)
 
 Figure 2 below shows the experimental stand that is used to integrate TubePinchValves with an electrochemical flow cell.  The Stand.f3d file in this reposity is a Fusion 360 CAD model of the stand.  The StandParts.ai file in this repository is an Adobe Illustrator file that can be used to laser cut the various pieces that comprise the stand:
 - 1: Main Base Platform
@@ -39,7 +38,7 @@ Figure 2 below shows the experimental stand that is used to integrate TubePinchV
 - 4: Servo Mount Clamp
 - 5: Platform for Flow Cell
 
-![GitHub_Fig2](https://github.com/user-attachments/assets/67847eaa-c5b6-4ace-ad19-98462cfc1582)
+![GitHub_Fig2](https://github.com/user-attachments/assets/4a49cb21-8030-41a8-a37f-ae13b78684ab)
 
 **BILL OF MATERIALS:**
 - Servo motor with lever (Example: [DS3225 25KG Large Torque Digital Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
