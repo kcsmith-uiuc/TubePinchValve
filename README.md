@@ -7,7 +7,7 @@ Documentation of the [Smith Lab @ UIUC's](https://kcsmith.mechse.illinois.edu/) 
 
 [3] [Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632.](https://doi.org/10.1016/j.electacta.2024.145632)
 
-Using the TubePinchValve device, the Smith Lab @ UIUC was the [first to demonstrate seawater-level desalination using such a battery-based process](https://doi.org/10.1039/d3ee01302b).  Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves), as shown in the video below.  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then switched.
+Using the TubePinchValve device, the Smith Lab @ UIUC was the [first to demonstrate seawater-level desalination using such a battery-based process](https://doi.org/10.1039/d3ee01302b).  In battery-based desalination, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that fed two electrodes (i.e., inlet valves), as shown in the video below.  After a pre-specified delay period, two other valves that directed the outflow from the same two electrodes were then switched.
 
 
 https://github.com/user-attachments/assets/45983bcd-0c9a-48d1-a0b0-8a49e22e287c
@@ -22,7 +22,7 @@ The TubePinchValve device seeks to control the flow of small liquid volumes in a
 **DESIGN:**
 The valve components are as follows:
 - 1 3D printed servo mount
-- 1 DS3225 25KG Large Torque Digital Servo
+- 1 DS3225 25KG Large Torque Digital Servo with Lever
 - 2 small diameter tubes of your choice, such as those used with peristaltic pumps
 - 1 Arduino MEGA
 - 1 custom PCB
@@ -30,7 +30,7 @@ The valve components are as follows:
     - 1 Barrel Jack
 
 **BILL OF MATERIALS:**
-- Servo motor (Example: [DS3225 25KG Large Torque Digital Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
+- Servo motor with lever (Example: [DS3225 25KG Large Torque Digital Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
 - PCB: Use your favorite custom PCB ordering website, such as JLCPCB.com.
   - 1 Relay (Example: [2449-J1021AS35VDC.20-ND RELAY GEN PURPOSE SPST 3A 5V](https://www.digikey.com/en/products/detail/cit-relay-and-switch/J1021AS35VDC-20/14002155))
   - 1 Barrel Jack (Example: [2.1 mm DC barrel jack](https://www.adafruit.com/product/373?gQT=1))
@@ -40,7 +40,11 @@ The valve components are as follows:
 **BUILD INSTRUCTIONS:**
 1. Order all parts in the DESIGN section.
 2. If modifications are not necessary, take the *.zip file in this GitHub repository named: Recirculation_Aparatus_PCB_V4-B_Cu.zip, and drop it into your favorite PCB manufacturing website.  If modifications to the PCB are necessary, load the relevant PCB files including *.drl files into your preferred PCB CAD software (e.g., KiCad), and export them as manufacturing files. Combine these files into a single *.zip file, and drap and drop them into your favorite PCB manufacturing website. 
-3. Upon receipt of components, solder the barrel jack and relay onto the PCB, connect the servo to the Arduino, and run the *.ino Arduino script from this page or a suitably edited version of that script.
+3. Upon receipt of components, solder the barrel jack and relay onto the PCB, and connect each servo to the Arduino.
+4. Connect each servo, lever, and pair of tubes to the mount of interest.
+5. Run the *.ino Arduino script from this repository to calibrate lever position for optimal tube pinching.
+6. Run the *.ino Arduino script from this repository to initiate periodic switching.
+7. Edit the *.ino Arduino script as necessary to suit your needs.
 
 **ACKNOWLEDGMENTS:**
 Support for Vu Q. Do, Md Habibur Rahman, and Kyle C. Smith is acknowledged from the US Office of Naval Research (Award no. N00014-22-1-2577).  Support for Chris Egly via a Research Experience for Undergraduates (REU) is acknowledged from the US National Science Foundation (Award no. 1931659).
