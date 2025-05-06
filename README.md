@@ -1,5 +1,5 @@
-# Capillary-Tube-Valve-Switch-PCB
-This repository contains information about the design, applications, and procurement information for this apparatus.  Documentation of the UIUC-Smith Laboratory's valve switching apparatus by pinching a tube.  This apparatus uses an Arduino microcontroller to actuate a servo that is used to pinch one tube while another tube is left unpinched, thus acting as a three-way valve.  This apparatus has found particular use in directing water flow through a battery-based electrochemical desalination process, as described and used in the following references:
+# TubePinchValve-PCB
+Documentation of the UIUC-Smith Laboratory's valve switching apparatus by pinching a tube.  This apparatus uses an Arduino microcontroller to actuate a servo that is used to pinch one tube while another tube is left unpinched, thus acting as a three-way valve.  This apparatus has found particular use in directing water flow through a battery-based electrochemical desalination process, as described and used in the following references:
 
 [1] Reale, E. R., Regenwetter, L., Agrawal, A., Dardón, B., Dicola, N., Sanagala, S., & Smith, K. C. (2021). Low porosity, high areal-capacity Prussian blue analogue electrodes enhance salt removal and thermodynamic efficiency in symmetric Faradaic deionization with automated fluid control. Water Research X, 13, 100116. https://doi.org/10.1016/j.wroa.2021.100116
 
