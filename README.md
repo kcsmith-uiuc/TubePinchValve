@@ -32,7 +32,7 @@ Figure 1 below shows the various electrical and mechanical components that compr
 
 ![GitHub_Fig1](https://github.com/user-attachments/assets/bd523e19-5965-45cd-a40b-2fc3e8c1f1a9)
 
-Figure 2 below shows the experimental stand that is used to integrate TubePinchValves with an electrochemical flow cell.  The Stand.f3d file in this reposity is a Fusion 360 CAD model of the stand.  The StandParts.ai file in this repository is an Adobe Illustrator file that can be used to laser cut the various pieces that comprise the stand:
+Figure 2 below shows the experimental stand that is used to integrate TubePinchValves with an electrochemical flow cell.  The Stand.f3d file in this repository is a Fusion 360 CAD model of the stand.  The StandParts.ai file in this repository is an Adobe Illustrator file that can be used to laser cut the various pieces that comprise the stand:
 - 1: Main Base Platform
 - 2 and 3: Support Column
 - 4: Servo Mount Clamp
