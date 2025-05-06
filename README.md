@@ -1,5 +1,5 @@
 # TubePinchValve-PCB
-Documentation of the UIUC-Smith Laboratory's valve switching apparatus by pinching a tube.  This apparatus uses an Arduino microcontroller to actuate a servo that is used to pinch one tube while another tube is left unpinched, thus acting as a three-way valve.  This apparatus has found particular use in directing water flow through a battery-based electrochemical desalination process, as described and used in the following references:
+Documentation of the Smith Lab @ UIUC's low-volume, valve-switching apparatus.  This apparatus uses an Arduino microcontroller to actuate a servo that is used to pinch one tube while another tube is left unpinched, thus acting as a three-way valve.   At least four such "valves" can be controlled at a given time based on signals that are received by the Arduino.  A custom printed circuit board (PCB) that interface between the Arduino and the associated servos is included with this repository, along with CAD drawings for 3D printable fixtures that mount two tubes and a servo motor in place for the purpose of fluid switching.  This apparatus has found particular use in the Smith Lab for directing water flow through a battery-based electrochemical desalination process, as described and used in the following references:
 
 [1] Reale, E. R., Regenwetter, L., Agrawal, A., Dardón, B., Dicola, N., Sanagala, S., & Smith, K. C. (2021). Low porosity, high areal-capacity Prussian blue analogue electrodes enhance salt removal and thermodynamic efficiency in symmetric Faradaic deionization with automated fluid control. Water Research X, 13, 100116. https://doi.org/10.1016/j.wroa.2021.100116
 
@@ -8,19 +8,15 @@ Documentation of the UIUC-Smith Laboratory's valve switching apparatus by pinchi
 [3] Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632. https://doi.org/10.1016/j.electacta.2024.145632
 
 DESCRIPTION:
-  The ability to control the flow of small liquid volumes in a simple, precise, and cost-effective manner is important for various experiments and devices. At the MechSE department at the University of Illinois at Urbana-Champaign, the Smith laboratory needed such a device for use in a recirculation apparatus for reseach on electrochemical desalination methods. 
-  
-  The valve functions with a simple servo, and a simple 3D-printed mount. By inserting tubes into either side of the mount, and connecting their inputs to seperate pumps, the valve switching device functions as an "xor-gate". The servo can be run by any simple microcontroller, but a simple and common controller is the Arduino. When functioning as a valve, the servo simply rotates between two positions, pinching either flow off. This functionality allows for rapid, precise switching of flows with little-to-no cross-flow.
-
-  The entire setup costs $13.25 + $23.99 + $3.99 + $0.97 + (((COST OF TUBING, COST OF BARELL JACK))), and further valves can be controlled from the same microcontroller, reducing the cost-per-unit to roughly (((INSERT UNIT COST))). This GitHub page acts as free-use documentation for the reproduction, modification, and procurement of such open-source "xor" gate valves. 
+The TubePinchValve-PCB apparatus seeks to control the flow of small liquid volumes in a simple, precise, and cost-effective manner by using a servo motor to pinch one of two flexible tubes through which water is flowed.  The single valve is comprised of (1) servo motor, (2) two tubes, (3) a 3D-printable mount, and (4) a microcontroller (e.g., an Arduino). By inserting tubes into either side of the mount, and connecting their inputs to separate pumps the apparatus acts as a three-way valve. When functioning as a valve, the servo rotates between two positions, pinching off either of the two flows of interest. This functionality allows for rapid, precise switching of flows with little-to-no cross-flow.  This GitHub page acts as open-source documentation for the reproduction, modification, and procurement of such three-way valves. 
 
 DESIGN:
 The valve components are as follows:
 - 1 3D printed servo mount
 - 1 DS3225 25KG Large Torque Digital Servo
-- 2 Small diameter tubes of your choice, we used: (((ADD LINK))))
+- 2 small diameter tubes of your choice, such as used with peristaltic pumps: 
 - 1 Arduino MEGA
-- 1 Custom PCB
+- 1 custom PCB
     - 1 2449-J1021AS35VDC.20-ND	RELAY GEN PURPOSE SPST 3A 5V
     - 1 Barrel Jack (((ADD PART NUMBER)))
 
