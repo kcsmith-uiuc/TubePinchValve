@@ -23,18 +23,18 @@ The valve components are as follows:
 - 2 small diameter tubes of your choice, such as those used with peristaltic pumps
 - 1 Arduino MEGA
 - 1 custom PCB
-    - 1 2449-J1021AS35VDC.20-ND	RELAY GEN PURPOSE SPST 3A 5V
+    - 1 Relay
     - 1 Barrel Jack
 
 **BILL OF MATERIALS**:
-- Servo motor (Example: [Digital RC Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
+- Servo motor (Example: [DS3225 25KG Large Torque Digital Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
 - PCB: Use your favorite custom PCB ordering website, such as JLCPCB.com.
-  - 1 2449-J1021AS35VDC.20-ND RELAY GEN PURPOSE SPST 3A 5V
-  - 1 Barrel Jack
+  - 1 Relay (Example: [2449-J1021AS35VDC.20-ND RELAY GEN PURPOSE SPST 3A 5V](https://www.digikey.com/en/products/detail/cit-relay-and-switch/J1021AS35VDC-20/14002155))
+  - 1 Barrel Jack (Example: [2.1 mm DC barrel jack](https://www.adafruit.com/product/373?gQT=1))
 - Tubing (Example: [Masterflex® L/S® Precision Pump Tubing, Versilon™ A-60-G, L/S 13](https://www.avantorsciences.com/us/en/product/NA5143380/masterflex-l-s-precision-pump-tubing-versilontm-a-60-n-avantor))
 - CAD file: ServoMount.stl on this GitHub page
 
 **BUILD INSTRUCTIONS**:
 1. Order all parts in the DESIGN section.
 2. If modifications are not necessary, take the *.zip file in this GitHub repository named: Recirculation_Aparatus_PCB_V4-B_Cu.zip, and drop it into your favorite PCB manufacturing website.  If modifications to the PCB are necessary, load the relevant PCB files including *.drl files into your preferred PCB CAD software (e.g., KiCad), and export them as manufacturing files. Combine these files into a single *.zip file, and drap and drop them into your favorite PCB manufacturing website. 
-3. Upon receipt of components, solder the barrel jack and relay onto the PCB, connect the servo to the Arduino, and run the Arduino script from this page or a suitably edited version of that script.
+3. Upon receipt of components, solder the barrel jack and relay onto the PCB, connect the servo to the Arduino, and run the *.ino Arduino script from this page or a suitably edited version of that script.
