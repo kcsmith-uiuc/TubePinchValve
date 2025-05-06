@@ -30,7 +30,8 @@ Figure 1 below shows the various electrical and mechanical components that compr
     - 1 Relay
     - 1 Barrel Jack
 
-![GitHub_Fig1](https://github.com/user-attachments/assets/bd523e19-5965-45cd-a40b-2fc3e8c1f1a9)
+<p align="center">
+<img src="https://github.com/kcsmith-uiuc/TubePinchValve/blob/main/Figures/GitHub1.png" alt="GitHub1" style="width:80%; height:auto;">
 
 Figure 2 below shows the experimental stand that is used to integrate TubePinchValves with an electrochemical flow cell.  The Stand.f3d file in this repository is a Fusion 360 CAD model of the stand.  The StandParts.ai file in this repository is an Adobe Illustrator file that can be used to laser cut the various pieces that comprise the stand:
 - 1: Main Base Platform
@@ -38,8 +39,8 @@ Figure 2 below shows the experimental stand that is used to integrate TubePinchV
 - 4: Servo Mount Clamp
 - 5: Platform for Flow Cell
 
-![GitHub_Fig2](https://github.com/user-attachments/assets/a89a9bf0-2cfb-46ef-8aff-f69dabbcfd8e)
-
+<p align="center">
+<img src="https://github.com/kcsmith-uiuc/TubePinchValve/blob/main/Figures/GitHub2.png" alt="GitHub2" style="width:80%; height:auto;">
 
 **BILL OF MATERIALS:**
 - Servo motor with lever (Example: [DS3225 25KG Large Torque Digital Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
