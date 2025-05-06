@@ -5,7 +5,7 @@ This repository contains information about the design, applications, and procure
 
 [2] Do, V. Q., Reale, E. R., Loud, I. C., Rozzi, P. G., Tan, H., Willis, D. A., & Smith, K. C. (2023). Embedded, micro-interdigitated flow fields in high areal-loading intercalation electrodes towards seawater desalination and beyond. Energy & Environmental Science, 16(7), 3025–3039. https://doi.org/10.1039/d3ee01302b
 
-[3] Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632. doi.org/10.1016/j.electacta.2024.145632
+[3] Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632. https://doi.org/10.1016/j.electacta.2024.145632
 
 DESCRIPTION:
   The ability to control the flow of small liquid volumes in a simple, precise, and cost-effective manner is important for various experiments and devices. At the MechSE department at the University of Illinois at Urbana-Champaign, the Smith laboratory needed such a device for use in a recirculation apparatus for reseach on electrochemical desalination methods. 
