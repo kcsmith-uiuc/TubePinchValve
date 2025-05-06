@@ -10,7 +10,7 @@ Documentation of the Smith Lab @ UIUC's low-volume, valve-switching apparatus.  
 Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves).  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then initiated. 
 
 **CITE THIS APPARATUS AS:**
-- Egly, C., Do, V. Q., Rahman, M. H., & Smith, K. C. (2025). TubePinchValve. https://github.com/cegly2444/Capillary-Tube-Valve-Switch-PCB
+- Egly, C., Do, V. Q., Rahman, M. H., & Smith, K. C. (2025). TubePinchValve. GitHub. https://github.com/cegly2444/Capillary-Tube-Valve-Switch-PCB
 - Reale, E. R., Regenwetter, L., Agrawal, A., Dardón, B., Dicola, N., Sanagala, S., & Smith, K. C. (2021). Low porosity, high areal-capacity Prussian blue analogue electrodes enhance salt removal and thermodynamic efficiency in symmetric Faradaic deionization with automated fluid control. Water Research X, 13, 100116. https://doi.org/10.1016/j.wroa.2021.100116
 
 **DESCRIPTION**:
@@ -20,18 +20,18 @@ The TubePinchValve-PCB apparatus seeks to control the flow of small liquid volum
 The valve components are as follows:
 - 1 3D printed servo mount
 - 1 DS3225 25KG Large Torque Digital Servo
-- 2 small diameter tubes of your choice, such as those used with peristaltic pumps: https://www.avantorsciences.com/us/en/product/NA5143380/masterflex-l-s-precision-pump-tubing-versilontm-a-60-n-avantor
+- 2 small diameter tubes of your choice, such as those used with peristaltic pumps
 - 1 Arduino MEGA
 - 1 custom PCB
     - 1 2449-J1021AS35VDC.20-ND	RELAY GEN PURPOSE SPST 3A 5V
     - 1 Barrel Jack
 
 **BILL OF MATERIALS**:
-- Servo motor: https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1
-- PCB: Use your favorite custom PCB ordering website.  We used JLCPCB.com.
+- Servo motor (Example: [Digital RC Servo](https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1))
+- PCB: Use your favorite custom PCB ordering website, such as JLCPCB.com.
   - 1 2449-J1021AS35VDC.20-ND RELAY GEN PURPOSE SPST 3A 5V
   - 1 Barrel Jack
-- Tubing: Masterflex® L/S® Precision Pump Tubing, Versilon™ A-60-G, L/S 13
+- Tubing (Example: [Masterflex® L/S® Precision Pump Tubing, Versilon™ A-60-G, L/S 13](https://www.avantorsciences.com/us/en/product/NA5143380/masterflex-l-s-precision-pump-tubing-versilontm-a-60-n-avantor))
 - CAD file: ServoMount.stl on this GitHub page
 
 **BUILD INSTRUCTIONS**:
