@@ -1,4 +1,4 @@
-# TubePinchValve-PCB
+# TubePinchValve
 Documentation of the Smith Lab @ UIUC's low-volume, valve-switching apparatus.  This apparatus uses an Arduino microcontroller to actuate a servo that is used to pinch one tube while another tube is left unpinched, thus acting as a three-way valve.   At least four such "valves" can be controlled at a given time based on signals that are received by the Arduino.  A custom printed circuit board (PCB) that interface between the Arduino and the associated servos is included with this repository, along with CAD drawings for 3D printable fixtures that mount two tubes and a servo motor in place for the purpose of fluid switching.  This apparatus has found particular use in the Smith Lab for directing water flow through a battery-based electrochemical desalination process, as described and used in the following references:
 
 [1] Reale, E. R., Regenwetter, L., Agrawal, A., Dardón, B., Dicola, N., Sanagala, S., & Smith, K. C. (2021). Low porosity, high areal-capacity Prussian blue analogue electrodes enhance salt removal and thermodynamic efficiency in symmetric Faradaic deionization with automated fluid control. Water Research X, 13, 100116. https://doi.org/10.1016/j.wroa.2021.100116
@@ -8,6 +8,9 @@ Documentation of the Smith Lab @ UIUC's low-volume, valve-switching apparatus.  
 [3] Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632. https://doi.org/10.1016/j.electacta.2024.145632
 
 Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves).  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then initiated. 
+
+**CITE THIS AS:**
+Egly, C., Do, V. Q., Rahman, M. H., & Smith, K. C. (2025). TubePinchValve. https://github.com/cegly2444/Capillary-Tube-Valve-Switch-PCB
 
 **DESCRIPTION**:
 The TubePinchValve-PCB apparatus seeks to control the flow of small liquid volumes in a simple, precise, and cost-effective manner by using a servo motor to pinch one of two flexible tubes through which water is flowed.  The single valve is comprised of (1) servo motor, (2) two tubes, (3) a 3D-printable mount, and (4) a microcontroller (e.g., an Arduino). By inserting tubes into either side of the mount, and connecting their inputs to separate pumps, the apparatus acts as a three-way valve. When functioning as a valve, the servo rotates between two positions, pinching off either of the two flows of interest. This functionality allows for rapid, precise switching of flows with little-to-no cross-flow.  This GitHub page provides open-source documentation for the reproduction, modification, and procurement of such three-way valves. 
