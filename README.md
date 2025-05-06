@@ -56,7 +56,7 @@ Figure 2 below shows the experimental stand that is used to integrate TubePinchV
 1. Order all parts in the DESIGN section.
 2. If modifications are not necessary, take the *.zip file in this GitHub repository named: Recirculation_Aparatus_PCB_V4-B_Cu.zip, and drop it into your favorite PCB manufacturing website.  If modifications to the PCB are necessary, load the relevant PCB files including *.drl files into your preferred PCB CAD software (e.g., KiCad), and export them as manufacturing files. Combine these files into a single *.zip file, and drap and drop them into your favorite PCB manufacturing website. 
 3. Upon receipt of components, solder the barrel jack and relay onto the PCB, and connect each servo to the Arduino.
-4. Connect each servo, lever, and pair of tubes to the mount of interest.
+4. Connect each servo, lever, and pair of tubes to the mount of interest.  If desired, connect the mounts to the experimental stand.
 5. Calibrate servo positions by running the Servo_pinching_calibration/Servo_pinching_calibration.ino Arduino script to produce optimal tube pinching.  In this script the user can adjust servo angles for two distinct states of each TubePinchValve.  The script makes use of [Arduino's servo.h library](https://docs.arduino.cc/libraries/servo/).
 6. After calibrating the preceding script, the user can then use the same file to initiate periodic switching subject to a trigger signal of interest.
 
