@@ -7,7 +7,7 @@ Documentation of the [Smith Lab @ UIUC's](https://kcsmith.mechse.illinois.edu/) 
 
 [3] [Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632.](https://doi.org/10.1016/j.electacta.2024.145632)
 
-Using the TubePinchValve device, the Smith Lab was the [first to demonstrate seawater-level desalination using such a battery-based process](https://doi.org/10.1039/d3ee01302b).  Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves), as shown in the video below.  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then switched.
+Using the TubePinchValve device, the Smith Lab @ UIUC was the [first to demonstrate seawater-level desalination using such a battery-based process](https://doi.org/10.1039/d3ee01302b).  Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves), as shown in the video below.  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then switched.
 
 
 https://github.com/user-attachments/assets/45983bcd-0c9a-48d1-a0b0-8a49e22e287c
