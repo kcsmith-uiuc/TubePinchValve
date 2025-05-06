@@ -7,7 +7,7 @@ Documentation of the Smith Lab @ UIUC's low-volume, valve-switching device.  Thi
 
 [3] [Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632.](https://doi.org/10.1016/j.electacta.2024.145632)
 
-Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves).  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then initiated. 
+Toward this application, a trigger signal sent from a BioLogic VMP-3 potentiostat to the Arduino was used to initiate the switching of two valves that feed two electrodes (i.e., inlet valves).  After a pre-specified delay period, two other valves that direct the outflow from the same two electrodes were then switched. 
 
 **CITE THIS device AS:**
 - Egly, C., Do, V. Q., Rahman, M. H., & Smith, K. C. (2025). TubePinchValve. GitHub. https://github.com/cegly2444/Capillary-Tube-Valve-Switch-PCB
