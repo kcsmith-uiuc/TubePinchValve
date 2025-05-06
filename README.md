@@ -7,36 +7,28 @@ Documentation of the Smith Lab @ UIUC's low-volume, valve-switching apparatus.  
 
 [3] Rahman, M. H., Loud, I. C., Do, V. Q., Hamid, M. A., & Smith, K. C. (2025). Tapered, Interdigitated Channels for Uniform, Low-Pressure Flow through Porous Electrodes for Desalination and Beyond. Electrochimica Acta, 514, 145632. https://doi.org/10.1016/j.electacta.2024.145632
 
-DESCRIPTION:
-The TubePinchValve-PCB apparatus seeks to control the flow of small liquid volumes in a simple, precise, and cost-effective manner by using a servo motor to pinch one of two flexible tubes through which water is flowed.  The single valve is comprised of (1) servo motor, (2) two tubes, (3) a 3D-printable mount, and (4) a microcontroller (e.g., an Arduino). By inserting tubes into either side of the mount, and connecting their inputs to separate pumps the apparatus acts as a three-way valve. When functioning as a valve, the servo rotates between two positions, pinching off either of the two flows of interest. This functionality allows for rapid, precise switching of flows with little-to-no cross-flow.  This GitHub page acts as open-source documentation for the reproduction, modification, and procurement of such three-way valves. 
+**DESCRIPTION**:
+The TubePinchValve-PCB apparatus seeks to control the flow of small liquid volumes in a simple, precise, and cost-effective manner by using a servo motor to pinch one of two flexible tubes through which water is flowed.  The single valve is comprised of (1) servo motor, (2) two tubes, (3) a 3D-printable mount, and (4) a microcontroller (e.g., an Arduino). By inserting tubes into either side of the mount, and connecting their inputs to separate pumps, the apparatus acts as a three-way valve. When functioning as a valve, the servo rotates between two positions, pinching off either of the two flows of interest. This functionality allows for rapid, precise switching of flows with little-to-no cross-flow.  This GitHub page provides open-source documentation for the reproduction, modification, and procurement of such three-way valves. 
 
-DESIGN:
+**DESIGN**:
 The valve components are as follows:
 - 1 3D printed servo mount
 - 1 DS3225 25KG Large Torque Digital Servo
-- 2 small diameter tubes of your choice, such as used with peristaltic pumps: 
+- 2 small diameter tubes of your choice, such as those used with peristaltic pumps: https://www.avantorsciences.com/us/en/product/NA5143380/masterflex-l-s-precision-pump-tubing-versilontm-a-60-n-avantor
 - 1 Arduino MEGA
 - 1 custom PCB
     - 1 2449-J1021AS35VDC.20-ND	RELAY GEN PURPOSE SPST 3A 5V
-    - 1 Barrel Jack (((ADD PART NUMBER)))
+    - 1 Barrel Jack
 
-INTENDED APPLICATIONS:
-  - Precise "either or" small volume liquid flow
-  - Public use and modification
+**BILL OF MATERIALS**:
+- Servo motor: https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1
+- PCB: Use your favorite custom PCB ordering website.  We used JLCPCB.com.
+  - 1 2449-J1021AS35VDC.20-ND RELAY GEN PURPOSE SPST 3A 5V
+  - 1 Barrel Jack
+- Tubing: Masterflex® L/S® Precision Pump Tubing, Versilon™ A-60-G, L/S 13
+- CAD file: ServoMount.stl on this GitHub page
 
-PROCUREMENT:
-Servo motor: https://www.amazon.com/RCmall-Digital-Waterproof-Robotic-Crawler/dp/B09PZSR2Q3/ref=sr_1_6?keywords=25kg%2Bservo%2B4%2Bpack&qid=1678895816&sprefix=25kg%2Bservo%2B4%2Caps%2C107&sr=8-6&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&th=1
-
-PCB: Use your favorite custom PCB ordering website, we used: JLCPCB.com
-  - 1 2449-J1021AS35VDC.20-ND	RELAY GEN PURPOSE SPST 3A 5V
-  - 1 Barrel Jack (((ADD PART NUMBER)))
-
-Tubing: (((ADD PART PROCUREMENT INFO)))
-
-CAD file: ServoMount.stl on this GitHub page
-
-INSTRUCTIONS ON HOW TO BUILD:
-1. Decide what modifcations your application needs
-2. Order all parts in the DESIGN section
-3. For the custom PCB, take your modified PCB files and export them as manufacturing files (include the .drl files). Save these as a .zip file, and drap and drop them into your favorite PCB manufacturing website. If modifications are not necessary, take the .zip file in this GitHub repository named: Recirculation_Aparatus_PCB_V4-B_Cu.zip, and drop it into your favorite PCB manufacturing website.
-4. Once the components arrive, solder the barrel jack and relay onto the PCB, hook up the servo to the arduino, and run the arduino script from this page edited for your application.
+**BUILD INSTRUCTIONS**:
+1. Order all parts in the DESIGN section.
+2. If modifications are not necessary, take the *.zip file in this GitHub repository named: Recirculation_Aparatus_PCB_V4-B_Cu.zip, and drop it into your favorite PCB manufacturing website.  If modifications to the PCB are necessary, load the relevant PCB files including *.drl files into your preferred PCB CAD software (e.g., KiCad), and export them as manufacturing files. Combine these files into a single *.zip file, and drap and drop them into your favorite PCB manufacturing website. 
+3. Upon receipt of components, solder the barrel jack and relay onto the PCB, connect the servo to the Arduino, and run the Arduino script from this page or a suitably edited version of that script.
