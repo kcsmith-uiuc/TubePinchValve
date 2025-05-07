@@ -13,8 +13,8 @@ Using the TubePinchValve device, the Smith Lab @ UIUC was the [first to demonstr
 
 https://github.com/user-attachments/assets/45983bcd-0c9a-48d1-a0b0-8a49e22e287c
 
-**CITE THIS DEVICE AS:**
-- Smith, K. C., Do, V. Q., Rahman, M. H., & Egly, C. (2025). TubePinchValve. GitHub. https://github.com/kcsmith-uiuc/TubePinchValve
+**CITE THIS DEVICE AND REPOSITORY AS:**
+- Smith, K. C., Egly, C., Do, V. Q., & Rahman, M. H. (2025). TubePinchValve. GitHub. https://github.com/kcsmith-uiuc/TubePinchValve
 - Reale, E. R., Regenwetter, L., Agrawal, A., Dardón, B., Dicola, N., Sanagala, S., & Smith, K. C. (2021). Low porosity, high areal-capacity Prussian blue analogue electrodes enhance salt removal and thermodynamic efficiency in symmetric Faradaic deionization with automated fluid control. Water Research X, 13, 100116. https://doi.org/10.1016/j.wroa.2021.100116
 
 **DESCRIPTION:**
